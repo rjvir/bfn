@@ -1,0 +1,145 @@
+@import url('reset.css');
+@import url('text.css');
+@import url('960.css');
+
+* {
+	font-family:'helvetica', arial, sans-serif;
+	color:#111;
+}
+
+html, body {
+	background-image:url(http://subtlepatterns.com/patterns/bright_squares.png);
+	background-image:url(http://subtlepatterns.com/patterns/fabric_plaid.png);
+}
+
+h1 {
+	font-size:48px;
+	margin-bottom:0;
+	line-height:1.25em;
+}
+
+h2 {
+	font-size:28px;
+	font-weight:normal;
+	line-height:1.25em;
+}
+
+h3 {
+	margin-bottom:0;
+	line-height:1.25em;
+}
+
+.header {
+	text-align:center;
+	background-image:url(http://static.twilk.com/static/images/twilk_background_4d2c2176557a2.jpg);
+	background-image:url(http://subtlepatterns.com/patterns/crissXcross.png); 
+	background-position:center center;
+	background-image:url(http://subtlepatterns.com/patterns/subtle_freckles.png);
+	background-image:url(http://subtlepatterns.com/patterns/dark_wood.png);
+	background-image:url(http://subtlepatterns.com/patterns/px_by_Gre3g.png);
+    /*	box-shadow:0 2px 1px #444; */
+    border-bottom:8px dotted rgba(0,0,0,.5);
+	box-shadow: inset 0px -1px 0px #555,0px 0px 5px rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid #222;
+}
+
+.header * {
+	color:#fcfcfc;
+}
+
+.navbar {
+	background-color:#111;
+	text-align:center;
+}
+
+.navbar a {
+	color:#fff;
+	text-decoration:none;
+	font-size:16px;
+	padding:8px 16px;
+	display:inline-block;
+}
+
+.navbar a:hover {
+	background-color:#444;
+}
+
+.body {
+}
+
+.box {
+/*	border:1px solid #acacac;
+	background-color:rgba(0,0,0,.05); */
+	border-radius:20px;
+	text-align:center;
+}
+
+.box img {
+	display:block;
+	margin:10px auto;
+	width:128px;
+	height:128px;
+}
+
+.box p {
+	text-align:center;
+	font-size:16px;
+}
+
+.buy {
+	display:inline-block;
+	padding:5px 20px;
+	text-decoration:none;
+	border-radius:5px;
+	font-weight:bold;
+	background-color:#005394;
+	color:#fcfcfc;
+	font-size:24px;
+	margin:0 auto;
+	cursor:pointer;
+}
+
+.buy:hover {
+	background-color:#1470b9;
+}
+
+.header .container_12 {
+	padding:20px 0;
+}
+
+.body .container_12 {
+	padding:20px 0;
+	height:100%;
+}
+
+.footer {
+	text-align:center;
+	padding:10px 0;
+	font-size:14px;
+}
+
+h4 {
+	font-size:16px;
+	margin-bottom:0;
+}
+
+.twitter-paypal, .fb-paypal {
+	border-radius:10px;
+	padding:10px;
+}
+
+.twitter-paypal {
+	background-color:rgba(64,153,255,.6);
+
+}
+
+.fb-paypal {
+	background-color:rgba(59,89,152,.6);
+}
+
+.tile {
+	width:300px;
+	margin-left:120px;
+	float:left;
+	margin-bottom:20px;
+}
